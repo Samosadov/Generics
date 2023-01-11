@@ -10,5 +10,7 @@ public class Main {
 
         int a = account.getId() + 1;
         System.out.println(a);
+
+        Account<Integer> account2 = new Account(45, 666, "Something");
     }
 }
