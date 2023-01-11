@@ -17,12 +17,11 @@ public class Main {
                 String s = (String) o;
                 System.out.println(s);
             }*/
-        ArrayList nums = new ArrayList();
+        ArrayList<Integer> nums = new ArrayList<>();
         for (int i = 0; i < 10; i++)
             nums.add(i * 2);
-        nums.add(0.0f);
         int sum = 0;
-        for (Object num : nums) sum += (Integer) num;
+        for (int num : nums) sum += num;
         System.out.println(sum);
 
     }
