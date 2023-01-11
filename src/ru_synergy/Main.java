@@ -20,9 +20,10 @@ public class Main {
         ArrayList nums = new ArrayList();
         for (int i = 0; i < 10; i++)
             nums.add(i * 2);
+        nums.add(0.0f);
         int sum = 0;
         for (Object num : nums) sum += (Integer) num;
         System.out.println(sum);
-        }
+
     }
 }
